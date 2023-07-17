@@ -105,21 +105,21 @@ Create a hosted zone and records for each service.
 
 ![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/aws-LiftAndShift/steps_ss/14.png)
 
-Build and deploy artifacts:
+**Build and deploy artifacts:**
 
-Ensure Maven and JDK 8 are installed.
+    - Ensure Maven and JDK 8 are installed.
 
-Modify the application.properties file with the  private DNS IP of each service.
+    - Modify the application.properties file with the  private DNS IP of each service.
 
-Build the project using Maven and verify the .war file in the target folder.
+    - Build the project using Maven and verify the .war file in the target folder.
 
-Create IAM user for AWS CLI and configure AWS CLI:
+    - Create IAM user for AWS CLI and configure AWS CLI:
 
-Create an IAM user with AWS S3 full access.
+    - Create an IAM user with AWS S3 full access.
 
-Configure AWS CLI using the downloaded CSV file.
+    - Configure AWS CLI using the downloaded CSV file.
 
-Create an S3 bucket:
+**Create an S3 bucket:**
 
 ![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/aws-LiftAndShift/steps_ss/15.png)
 
