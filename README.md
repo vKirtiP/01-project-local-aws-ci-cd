@@ -15,7 +15,7 @@ This approach offers scalability, flexibility, and cost-effectiveness. The migra
 Overall, the goal is to leverage AWS's capabilities to enhance the project's performance and reduce operational complexities.
 ## Architecture
 
-![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/aws-LiftAndShift/Arch_.png)
+![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/aws-refactor/arch_.png)
 
 The project is undergoing a comprehensive infrastructure refactoring to optimize its architecture. The following enhancements are being implemented:
 
