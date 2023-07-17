@@ -31,6 +31,10 @@ Initially, the data is accessed from the database. However, subsequent requests 
 These components, including Nginx, Tomcat, MySQL, RabbitMQ, and Memcached, work together in the local setup to ensure efficient handling of user requests and optimal performance of the web application.
 
 
+## Architecture
+
+![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/local-setup/arch_.png)
+
 ## Deployment
 
 Cloning the source code
