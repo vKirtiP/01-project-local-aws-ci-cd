@@ -131,6 +131,7 @@ Create an S3 bucket for storing artifacts.
 Copy the artifact to the S3 bucket:
 
 ![App Screenshot](https://github.com/vKirtiP/project-local-aws-ci-cd/blob/aws-LiftAndShift/steps_ss/17.png)
+
 Use AWS CLI to copy the artifact to the S3 bucket.
 
 Create a role for S3 storage and attach it to the EC2 instance:
@@ -165,7 +166,7 @@ Create an application load balancer.
 Update DNS record in the domain host.
 
 
-Set up Auto Scaling Group (ASG) for Tomcat server:
+**Set up Auto Scaling Group (ASG) for Tomcat server:**
 
     - Create an AMI for the Tomcat instance.
     - Create a Launch Configuration.
